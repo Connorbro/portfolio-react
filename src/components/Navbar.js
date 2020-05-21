@@ -5,13 +5,15 @@ import Homepage from './Homepage';
 import Projects from './Projects';
 
 
+
 const Navbar = () => {
     return(
       <Router>
-        <div>
+      <div className="centermylist">
+        <div className="topnav">
           <ul>
-            <li>
-              <Link to='/'>Home</Link>
+            <li class="active">
+              <Link to='/'>Homepage</Link>
             </li>
             <li>
               <Link to='/about'>About</Link>
@@ -19,14 +21,21 @@ const Navbar = () => {
             <li>
                 <Link to='/projects'>Projects</Link>
             </li>
+            
+            
+            
+            
           </ul>
+          </div>
+          </div>
+          <div>
           <Switch>
             <Route exact path='/'>
               <Homepage/>
             </Route>
   
             <Route path= '/about'>
-              <About/>
+              <About interest="Football" interest1="Gaming" interest2="Scootering"/>
             </Route>
             <Route path= '/projects'>
                 <Projects />
