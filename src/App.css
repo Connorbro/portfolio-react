@@ -10,7 +10,7 @@ ul{
 .topnav {
   overflow: hidden;
   list-style: none;
-  background-color: silver;
+  background-color: #3FEEE6;
   text-align: center;
 }
 
@@ -25,7 +25,7 @@ ul{
 }
 .topnav a:hover {
   background-color: midnightblue;
-  color: black;
+  color: white;
   text-align: center;
 }
 
@@ -34,6 +34,26 @@ ul{
   color: white;
 }
 body {
-  background-color: #2980b9;
+  background-color: #2d3436;
   text-align: center;
+}
+.footer{
+background-color: #3FEEE6;
+    border-top: 1px solid #E7E7E7;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+.aboutCenter{
+  color: white;
+}
+.projectsCenter{
+  color: white;
+}
+.homepageCenter{
+  color: white;
 }

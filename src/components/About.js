@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = (props) => {
     return(
-        <div>
+        <div className="aboutCenter">
             <h1>About me </h1>
            
             <p>Hi my name is Connor and I am a junior developer for TalkTalk.</p>
@@ -11,7 +11,7 @@ const About = (props) => {
                 <li>{props.interest}</li>
                 <li>{props.interest1}</li>
                 <li>{props.interest2}</li>
-             </ul>
+            </ul>
         </div>
 
     )
