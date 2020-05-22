@@ -1,9 +1,11 @@
 import React from 'react';
 
+
 const Homepage = () => {
     return(
         <div className="homepageCenter">
-            <h1>Home</h1>
+            <h1>My portfolio</h1>
+   
         </div>
     )
 }
